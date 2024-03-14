@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img" href="assets/code-regular-24.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Isabela Dutra</title>
+</head>
+<body>
+    <!-- Início da seção do cabeçalho -->
+    <header class="menu">
+        <!-- Lista de links de navegação -->
+        <ul>
+            <li>
+                <a class="isabela" href="#home">ISABELA</a>
+            </li>
+            <li>
+                <a href="#sobre">Sobre mim</a>
+            </li>
+            <li>
+                <a href="#formacao">Formação</a>
+            </li>
+            <li>
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a href="#contato">Contato</a>
+            </li>
+        </ul>
+    </header>
+        <!-- Fim da seção do cabeçalho -->
+
+        <!-- Seção "Home" -->
+    <div class="overlay"></div>
+    <div id="home"class="container">
+        <div class="imagem">
+            <img class="imagem-isabela" src="./assets/isabela.jpg" alt="imagem de Isabela">
+        </div>
+
+        <div class="conteudo">
+            <h2 > Olá, eu sou </h2>
+            <h1 class="home">Isabela Dutra</h1>
+            <h2 >Graduanda em Análise<br>e Desenvolvimento de Sistemas</h2>
+                <div>
+                    <a class="icons" href="https://www.instagram.com/_isadutrar/"><img src="./assets/icons8-instagram-30.png"></a>
+                    <a class="icons" href="https://github.com/isadtr"><img src="./assets/icons8-github-30.png"></a>
+                    <a class="icons" href="https://www.linkedin.com/in/isabela-dutra-344503159/"><img src="./assets/icons8-linkedin-30.png"></a>
+                    <a class="icons" href="https://mail.google.com/mail/u/0/#inbox?compose=new"><img src="./assets/icons8-gmail-novo-30.png"></a>
+                </div>
+        </div>
+    </div>
+        <!-- Fim da seção "Home" -->
+
+        <!-- Seção "Sobre mim" -->
+    <section id="sobre">
+        <div class="container" id="grad">
+            <div>
+                <h1 class="sobre">Sobre mim</h1>
+                <p class="sobremim">Tenho 24 anos. Moro na cidade de Parnaíba - Piauí.<br>Estou no 2º período da graduação do curso Análise e Desenvolvimento de Sistemas na UNINTER.<br>Em 2023, decidi migrar de carreira e iniciar uma nova faculdade, depois de mais de 1 ano atuando como Cirurgiã-dentista. Desde criança tenho afinidade com a área de Tecnologia. Passava horas no computador desvendando a Internet e na matéria de informática fiz meu primeiro blog, mas sempre vi apenas como entretenimento. Somente em 2017, o computador se tornou uma ferramenta de trabalho, quando desenvolvi alguns projetos como Designer freelancer para ajudar a pagar as listas de materiais do curso de Odontologia. O interesse pela Programação veio durante a Pandemia de Covid-19, quando tudo parecia incerto, trabalhar remotamente parecia uma solução. Comecei por cursos gratuitos, Youtube, etc. mas a necessidade de ter uma rota de estudos bem planejada me incentivou a buscar uma formação a nível superior, e tem sido uma maravilhosa jornada até aqui, cheia de altos e baixos, mas muito gratificante.</p>
+            </div>
+        </div>
+        <!-- Fim da seção "Sobre mim" -->
+
+        <!-- Seção "Formação" -->
+        <section id="formacao"class="container2">
+            <div id="grad">
+                <h1 class="form">Formação</h1>
+                <div class="box">
+                    <div class="formacao1">
+                        <img src="./assets/icons8-dente-64 (1).png">
+                        <p>Bacharelado em Odontologia<br>Universidade Estadual do Piauí (UESPI)<br>2017-2022
+                        </p>
+                    </div>
+                    
+                    <div class="formacao2">
+                        <img src="./assets/icons8-conexão-rdp-64.png">
+                        <p>Tecnólogo em Análise e Desenvolvimento de Sistemas<br>Centro Universitário Internacional (UNINTER)<br>2023-Atual</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Fim da seção "Formação" -->
+
+        <!---Seção "Portfolio"-->         
+        <section id="portfolio"class="">
+                <div class="container3" id="grad">
+                    <h1 class="port">Portfolio</h1>
+                    <div class="portfolio">
+                        <a href="https://front-programaria-react-isadtr.vercel.app/">
+                        <img src="./assets/programaria.png" alt="Curso-Programaria">
+                        </a>
+                        <div class="desc">Curso de Back-End da PrograMaria</div>
+                    </div>
+                    
+                    <div class="portfolio">
+                        <a href="https://agencia-qi.vercel.app/">
+                        <img src="./assets/agenciaqi.png" alt="Site-Agencia-QI">
+                        </a>
+                        <div class="desc">Landing Page Agência QI</div>
+                    </div>
+                    
+                    <div class="portfolio" >
+                        <a href="https://paginainicial-blush.vercel.app">
+                        <img src="./assets/pagina.png" alt="Página-Isabela">
+                        </a>
+                        <div class="desc">Curso de Front-end da Alura</div>
+                    </div>
+                </div>
+        </section>
+        <!-- Fim da Seção "Portfolio" --> 
+
+        <!-- Seção "Contato" -->
+        <section id="contato"class="container4">
+            <div id="grad">
+                <h1 class="cont">Contato</h1>
+                <div class="contato">
+                Nome: <input type="text"><br>
+                E-mail: <input type="text"><br>
+                Digite sua mensagem:
+                <textarea placeholder="Digite sua mensagem aqui" cols="50">
+                </textarea><br>
+                <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </section>
+        <!-- Fim da Seção "Contato" --> 
+</body>
+    <!-- JavaScript para rolamento suave entre as seções-->
+<script src="script.js"></script>
+    <!-- Rodapé -->
+<footer id="grad">Desenvolvido por isadtr</footer>
+</html>
