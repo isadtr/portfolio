@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-const texts = ['Bem-vindo à Nossa Landing Page!', 'Oferecemos os melhores serviços!', 'Entre em contato conosco!'];
+\*const texts = ['Bem-vindo à Nossa Landing Page!', 'Oferecemos os melhores serviços!', 'Entre em contato conosco!'];
 let count = 0;
 let index = 0;
 let currentText = '';
@@ -29,4 +29,4 @@ let letter = '';
   } else {
     setTimeout(type, 100); // Velocidade da digitação
   }
-})();
+})();*/
